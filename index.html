@@ -1,0 +1,118 @@
+<html>
+
+  <style>
+    .card {
+      width: 578px;
+      height: 230px;
+      padding: 30px;
+      border-radius: 3px;
+      fill: #ffffff;
+      box-shadow: 0px 1px 3px rgba(63,63,68,0.15), 0px 0px 0px 1px rgba(63,63,68,0.05);
+    }
+
+    .card-header {
+      width: 216px;
+      height: 24px;
+      font-family: Merriweather;
+      font-size: 22px;
+      color: #212b36;
+      text-decoration: none solid rgb(33, 43, 54);
+      line-height: 24px;
+    }
+
+    .card-label {
+      width: 95px;
+      height: 20px;
+      font-family: Source Sans Pro;
+      font-size: 16px;
+      color: #212b36;
+      text-decoration: none solid rgb(33, 43, 54);
+      line-height: 20px;
+    }
+
+    .card-content {
+      width: 143px;
+      height: 41px;
+      font-family: Source Sans Pro;
+      font-size: 18px;
+      color: #212b36;
+      text-decoration: none solid rgb(33, 43, 54);
+      line-height: 20px;
+      margin: 5px 0;
+    }
+
+    .card-desc {
+      width: 182px;
+      height: 20px;
+      font-family: Source Sans Pro;
+      font-size: 16px;
+      color: #212b36;
+      text-decoration: none solid rgb(33, 43, 54);
+      line-height: 20px;
+      font-style: italic;
+    }
+
+    .card-button {
+      width: 185px;
+      height: 36px;
+      border-radius: 3px;
+      fill: #2b6886;
+      /* box-shadow: 0px 1px 0px rgba(22,29,37,0.1), inset 0px 1px 0px 1px rgba(255,255,255,0.06); */
+      margin: 40px 0 0 0;
+      cursor: pointer;
+      background-color: #2b6886;
+      color: white;
+      border: 0;
+    }
+
+    hr.card-divider {
+      width: 83px;
+      height: 1px;
+      stroke-width: 2;
+      margin: 15px 0;
+    }
+
+    .main-content {
+      width: 1440px;
+      height: 1560px;
+      margin: 40px;
+      fill: #f5fbfc;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .flex-item {
+      width: 45%;
+    }
+  </style>
+
+  <head>
+
+  </head>
+<body>
+  <div class="main-content">
+    <div class="card">
+      <div class="card-header">Kansas City, MO</div>
+      <hr class="card-divider" />
+      <div class="flex">
+        <div class="flex-item">
+          <div class="card-label">Last meeting</div>
+          <div class="card-content">Aug 15 | 2pm City Hall</div>
+          <div class="card-desc">Minutes available</div>
+        </div>
+        <div class="flex-item">
+          <div class="card-label">Next meeting</div>
+          <div class="card-content">Aug 22 | 2pm City Hall</div>
+          <div class="card-desc">Agenda available</div>
+          <div class="card-desc">Livestream available</div>
+        </div>
+      </div>
+      <button class="card-button">
+        View all info for KCMO
+      </button>
+    </div>
+  </div>
+</body>
